@@ -1,0 +1,19 @@
+<html>
+<script language="javascript">
+    function calc()
+    {
+    var a1,a2, ans;
+    a1 = eval(document.getElementById("q1").value);
+    a2 = eval(document.getElementById("q2").value);
+    ans = a1 + a2;
+    document.getElementById("ans").innerHTML = ans;
+    }
+</script>
+<body>
+<h1>這是標題</h1>
+<p>你好這是網頁內容</p>
+<p><input type="number" id="q1"/>+<input type="number" id="q2"/></p>
+<p><input type="button" id="cal" value="=" onclick="calc()" /><span id="ans"></span></p>
+<a href="sec.html">連往第二頁</a>
+</body>
+</html>
